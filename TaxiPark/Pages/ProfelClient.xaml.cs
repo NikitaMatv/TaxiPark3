@@ -32,6 +32,7 @@ namespace TaxiPark.Pages
                 CartTb.Visibility = Visibility.Collapsed;
                 Phone.Visibility = Visibility.Collapsed;
                 Card.Visibility = Visibility.Collapsed;
+                OrderDriverBt.Visibility = Visibility.Collapsed;
             }
             if (App.LoggedEmployee.RoleId == 2)
             {

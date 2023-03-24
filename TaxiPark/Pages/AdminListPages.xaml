@@ -31,7 +31,7 @@
             </ListView>
             <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0 0 0 20 ">
                 <Button Margin="0 0 0 0" FontWeight="ExtraBold" FontSize="12" x:Name="ListEmlooyBt" Background="#E9E9E9" Click="ListEmlooyBt_Click" Height="40" Width="142">Список заявок</Button>
-                <Button Margin="30 0 0 0" FontWeight="ExtraBold" FontSize="12" x:Name="ExitBt" Background="#E9E9E9" Visibility="Hidden" Click="ExitBt_Click" Height="40" Width="142">Список заблокированых</Button>
+                <Button Margin="30 0 0 0" FontWeight="ExtraBold" FontSize="12" x:Name="ExitBt" Background="#E9E9E9" Click="ExitBt_Click" Height="40" Width="142">Выход</Button>
             </StackPanel>
         </StackPanel>
     </Grid>

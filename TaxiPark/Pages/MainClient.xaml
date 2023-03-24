@@ -26,6 +26,7 @@
             </ListView>
             <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0 10 0 20 ">
                 <Button Margin="0 0 0 0" FontWeight="ExtraBold" FontSize="12" x:Name="ZakazBt" Background="#E9E9E9" Click="ZakazBt_Click"  Height="40" Width="142" >Заказать такси</Button>
+                <Button Margin="0 0 0 0" FontWeight="ExtraBold" FontSize="12" x:Name="ZakaDellzBt" Background="#E9E9E9" Click="ZakaDellzBt_Click" Visibility="Collapsed"  Height="40" Width="142" >Отменить заказ</Button>
                 <Button Margin="40 0 0 0" FontWeight="ExtraBold" FontSize="12" x:Name="ProfilBt" Background="#E9E9E9" Click="ProfilBt_Click" Height="40" Width="142">Профиль</Button>
             </StackPanel>
         </StackPanel>

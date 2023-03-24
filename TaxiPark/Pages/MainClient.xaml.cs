@@ -27,7 +27,8 @@ namespace TaxiPark.Pages
             LvOrders.ItemsSource = App.DB.Order.Where(x => x.ClientId == App.LoggedEmployee.Id).Where(x => x.IsAccept != 3).ToList();
             if (LvOrders.Items.Count > 0)
             {
-                ZakazBt.Visibility = Visibility.Hidden;
+                ZakazBt.Visibility = Visibility.Collapsed;
+                ZakaDellzBt.Visibility = Visibility.Visible;
             }
         }
 
@@ -40,6 +41,22 @@ namespace TaxiPark.Pages
         private void ProfilBt_Click(object sender, RoutedEventArgs e)
         {
             NavigationService.Navigate(new ProfelClient(App.LoggedEmployee));
+        }
+
+        private void ZakaDellzBt_Click(object sender, RoutedEventArgs e)
+        {
+            var selectedclient = LvOrders.SelectedItem as Order;
+            if (selectedclient == null)
+            {
+                MessageBox.Show("Выберете заказ");
+                return;
+            }
+           
+                selectedclient.IsAccept = 3;
+
+
+            App.DB.SaveChanges();
+            NavigationService.Navigate(new MainClient());
         }
     }
 }

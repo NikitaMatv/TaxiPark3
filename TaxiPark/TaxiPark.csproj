@@ -129,6 +129,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\InformationPages.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\MainAdminPages.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -179,6 +183,9 @@
     </Compile>
     <Compile Include="Pages\EditClientProfilPages.xaml.cs">
       <DependentUpon>EditClientProfilPages.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\InformationPages.xaml.cs">
+      <DependentUpon>InformationPages.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\MainAdminPages.xaml.cs">
       <DependentUpon>MainAdminPages.xaml</DependentUpon>

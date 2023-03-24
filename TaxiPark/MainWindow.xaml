@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TaxiPark"
         mc:Ignorable="d"
-        Title="MainWindow" Height="650" Width="350"
-       ResizeMode="CanMinimize">
+        Title="BlackCar" Height="650" Width="350"
+       ResizeMode="CanMinimize"
+        Icon="/Resourse/Car.png">
 
     <Grid>
         <Grid.Background>

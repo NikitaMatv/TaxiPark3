@@ -76,5 +76,10 @@ namespace TaxiPark.Pages
         {
             NavigationService.Navigate(new RegPages(new Emplooy()));
         }
+
+        private void Information_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new InformationPages());
+        }
     }
 }

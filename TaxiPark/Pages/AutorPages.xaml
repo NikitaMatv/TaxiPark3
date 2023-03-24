@@ -18,5 +18,6 @@
             <Button Margin="0 20 0 0" FontWeight="ExtraBold" Foreground="Black" FontSize="12" x:Name="AutorBt" Background="#E9E9E9" Click="AutorBt_Click" Height="40" Width="180">Авторизоваться</Button>
             <Button Margin="0 20 0 0" FontWeight="ExtraBold" Foreground="Black" FontSize="12" x:Name="RegBt" Background="#E9E9E9" Click="RegBt_Click" Height="40" Width="180">Регитсрация</Button>
         </StackPanel>
+        <Button Margin="0 0 0 30" FontWeight="ExtraBold" FontSize="12" VerticalAlignment="Bottom" x:Name="Information" Background="#E9E9E9" Click="Information_Click" Height="40" Width="142">Информация</Button>
     </Grid>
 </Page>
